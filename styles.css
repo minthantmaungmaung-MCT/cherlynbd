@@ -7,7 +7,7 @@
 
 /* Body and page styling */
 body {
-    background-color: #f3e5f5; /* Soft lavender background for magic */
+    background-color: #fce4ec; /* Light pink background for a girly, professional touch */
     color: #4a4a4a;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -17,10 +17,10 @@ body {
 
 /* Header styling */
 header {
-    background-color: #f49ac2;
+    background-color: #f06292; /* Vibrant pink for the header */
     color: white;
     padding: 40px 20px;
-    border-bottom: 5px solid #e57383;
+    border-bottom: 5px solid #e57373;
     position: relative;
     z-index: 10;
 }
@@ -38,16 +38,14 @@ h1 {
     margin-top: 10px;
 }
 
-/* Cake Animation */
+/* Cake Container and Animation */
 .cake-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     position: relative;
-    z-index: 10;
 }
 
-/* Cake */
 .cake {
     width: 220px;
     height: 130px;
@@ -90,7 +88,7 @@ h1 {
     }
 }
 
-/* Floating Sparkles */
+/* Sprinkles and Magical Effects */
 .sprinkles {
     position: absolute;
     top: 20px;
@@ -98,7 +96,7 @@ h1 {
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://i.imgur.com/m9fHpzL.png'); /* Magical sparkle pattern */
+    background-image: url('https://i.imgur.com/m9fHpzL.png'); /* Sparkle image */
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -114,7 +112,7 @@ h1 {
     }
 }
 
-/* Message Container */
+/* Motivational Message */
 .message-container {
     margin-top: 30px;
     max-width: 600px;
@@ -127,20 +125,20 @@ h1 {
     color: #fff;
     line-height: 1.6;
     padding: 20px;
-    background-color: #ff89a2;
+    background-color: #ff8ab2;
     border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
-/* Button Styles */
+/* Button Container */
 .button-container {
     margin-top: 20px;
 }
 
 .celebrate-btn {
     font-size: 1.2em;
-    background-color: #ff7fb3;
+    background-color: #ff80ab;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -150,7 +148,7 @@ h1 {
 }
 
 .celebrate-btn:hover {
-    background-color: #e77e91;
+    background-color: #e57373;
     transform: translateY(-3px);
 }
 
@@ -173,7 +171,7 @@ h1 {
 
 /* Footer */
 footer {
-    background-color: #f49ac2;
+    background-color: #f06292;
     color: white;
     padding: 20px;
     margin-top: 50px;
@@ -198,19 +196,19 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://i.imgur.com/RwSKqG8.png'); /* Add a castle image */
+    background-image: url('https://i.imgur.com/RwSKqG8.png'); /* Castle background */
     background-size: cover;
     background-position: center;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.2;
     animation: castleAnimation 10s infinite alternate;
 }
 
 @keyframes castleAnimation {
     0% {
-        opacity: 0.3;
+        opacity: 0.2;
     }
     100% {
-        opacity: 0.6;
+        opacity: 0.5;
     }
 }
