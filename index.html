@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Cherlyn!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday, Cherlyn!</h1>
+        <p class="subtitle">May your day be filled with magic, joy, and Disney dreams!</p>
+    </header>
+
+    <div class="content">
+        <div class="cake-container">
+            <div class="cake" id="cake">
+                <div class="candles">
+                    <div class="candle" id="candle1"></div>
+                    <div class="candle" id="candle2"></div>
+                    <div class="candle" id="candle3"></div>
+                </div>
+                <div class="sprinkles"></div>
+            </div>
+        </div>
+
+        <div class="message-container">
+            <p class="personal-message">
+                Cherlyn, you are the princess of our workplace, and today is your royal day! May this year bring you happiness, success, and all your wishes come true!
+            </p>
+        </div>
+
+        <div class="button-container">
+            <button class="celebrate-btn" onclick="displayWish()">Click to See Your Birthday Surprise</button>
+        </div>
+
+        <div id="wish" class="birthday-wish">
+            <p>Wish from Min: May your journey this year be as magical as a Disney adventure! 🎉</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>With warm wishes, <span class="footer-name">Min</span></p>
+        <p class="footer-text">You're the heart of our team!</p>
+    </footer>
+
+    <script>
+        // Animation for cake and candles
+        window.onload = () => {
+            setTimeout(() => {
+                document.getElementById('cake').classList.add('cake-visible');
+                document.getElementById('candle1').classList.add('candle-glow');
+                document.getElementById('candle2').classList.add('candle-glow');
+                document.getElementById('candle3').classList.add('candle-glow');
+            }, 1000);
+        };
+
+        function displayWish() {
+            document.getElementById('wish').classList.add('visible');
+        }
+    </script>
+</body>
+</html>
