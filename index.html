@@ -10,10 +10,11 @@
 <body>
     <header>
         <h1>Happy Birthday, Cherlyn!</h1>
-        <p class="subtitle">May your day be filled with magic, joy, and Disney dreams!</p>
+        <p class="subtitle">Wishing you an amazing year ahead filled with love and success!</p>
     </header>
 
     <div class="content">
+        <!-- Birthday Cake and Animation -->
         <div class="cake-container">
             <div class="cake" id="cake">
                 <div class="candles">
@@ -21,32 +22,34 @@
                     <div class="candle" id="candle2"></div>
                     <div class="candle" id="candle3"></div>
                 </div>
-                <div class="sprinkles"></div>
             </div>
         </div>
 
+        <!-- Motivational Message -->
         <div class="message-container">
             <p class="personal-message">
-                Cherlyn, you are the princess of our workplace, and today is your royal day! May this year bring you happiness, success, and all your wishes come true!
+                Cherlyn, you bring light and positivity to everyone around you. May your day be as wonderful as your heart is. You're a true inspiration to us all. <br>Happy birthday!
             </p>
         </div>
 
+        <!-- Celebrate Button -->
         <div class="button-container">
-            <button class="celebrate-btn" onclick="displayWish()">Click to See Your Birthday Surprise</button>
+            <button class="celebrate-btn" onclick="displayWish()">Click for Your Birthday Wish</button>
         </div>
 
+        <!-- Birthday Wish from Min -->
         <div id="wish" class="birthday-wish">
-            <p>Wish from Min: May your journey this year be as magical as a Disney adventure! 🎉</p>
+            <p>Wish from Min: Wishing you a year filled with magic, joy, and success! You truly make the world a better place! 🎉</p>
         </div>
     </div>
 
     <footer>
-        <p>With warm wishes, <span class="footer-name">Min</span></p>
-        <p class="footer-text">You're the heart of our team!</p>
+        <p>With love, <span class="footer-name">Min</span></p>
+        <p class="footer-text">You are the heartbeat of our workplace!</p>
     </footer>
 
     <script>
-        // Animation for cake and candles
+        // Cake and Candle Animation
         window.onload = () => {
             setTimeout(() => {
                 document.getElementById('cake').classList.add('cake-visible');
